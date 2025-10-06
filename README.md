@@ -63,27 +63,22 @@ By leveraging molecular descriptors computed from **RDKit** and **Extended-conne
 
 ## 📂 Project Structure
 QSAR-Antimalarial-Model/
-│── data/
-│ ├── raw_data_chembl.csv
-│ ├── processed_Chembl_data.csv
-│── notebooks/
-│ ├── Logistic_regression_qsar_model.ipynb
-  ├── RandomForest_qsar_model.ipynb
-│ ├── CatBoost_qsar_model.ipynb
-│ ├── lightGBM_qsar_model.ipynb
-│ ├── XGBoost_qsar_model.ipynb
-│── 
-│ ├── 
-│ ├── 
-│── results/
-│ ├── confusion_matrix.csv
-│ ├── feature_importance.png
-│ ├── roc_curve and auprc.png
-│── requirements.txt
-│── LICENSE
-│── README.md
-
-
+├── data/
+│   ├── raw_data_chembl.csv
+│   └── processed_Chembl_data.csv
+├── notebooks/
+│   ├── Logistic_regression_qsar_model.ipynb
+│   ├── RandomForest_qsar_model.ipynb
+│   ├── CatBoost_qsar_model.ipynb
+│   ├── lightGBM_qsar_model.ipynb
+│   └── XGBoost_qsar_model.ipynb
+├── results/
+│   ├── confusion_matrix.csv
+│   ├── feature_importance.png
+│   └── roc_curve_and_auprc.png
+├── requirements.txt
+├── LICENSE
+└── README.md
 ---
 
 ## Models and Performance
@@ -124,10 +119,10 @@ The performance of five machine learning models on the test dataset is summarize
 - ChEMBL Database – [https://www.ebi.ac.uk/chembl/](https://www.ebi.ac.uk/chembl/)  
 - RDKit Documentation – [https://www.rdkit.org/](https://www.rdkit.org/)  
 - Mordred Descriptors – [https://github.com/mordred-descriptor/mordred](https://github.com/mordred-descriptor/mordred)
-- ![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
-- ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-- ![RDKit](https://img.shields.io/badge/RDKit-Enabled-lightgrey.svg)
-- ![Build](https://img.shields.io/badge/Status-Active-brightgreen.svg)
+  ![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
+  ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+  ![RDKit](https://img.shields.io/badge/RDKit-Enabled-lightgrey.svg)
+  ![Build](https://img.shields.io/badge/Status-Active-brightgreen.svg)
 
 ---
 
