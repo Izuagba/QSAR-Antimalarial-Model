@@ -42,15 +42,17 @@ By leveraging molecular descriptors computed from **RDKit** and **Extended-conne
 - Metrics: Accuracy, ROC-AUC, F1-score, Precision, Recall.  
 - Visualization: Confusion Matrix, ROC Curve, Feature Importance plots.
 - confusion Matrix of the best model
-- results/LightGBM_Results/train_test_confusion_matrix_LightGBM.png 
 - Cross-validation (5-fold) for generalization performance.  
 
 ### 5. Prediction and Virtual Screening
 - Used trained models to predict the activity of new natural compounds (from Newbouldis Leavis).  
-
-
 ---
-
+# Confusion_matrix of Best Model
+It is a tool used to evaluate the performance of a model and is visually represented as a table. 
+#
+##
+###
+![image Alt](![Image](https://github.com/Izuagba/QSAR-Antimalarial-Model/blob/main/results/LightGBM_Results/train_test_confusion_matrix_LightGBM.png))
 ## 🧰 Tools and Libraries
 
 | Category | Tools/Packages |
