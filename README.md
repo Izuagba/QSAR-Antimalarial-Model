@@ -40,7 +40,9 @@ By leveraging molecular descriptors computed from **RDKit** and **Extended-conne
 
 ### 4. Model Evaluation
 - Metrics: Accuracy, ROC-AUC, F1-score, Precision, Recall.  
-- Visualization: Confusion Matrix, ROC Curve, Feature Importance plots.  
+- Visualization: Confusion Matrix, ROC Curve, Feature Importance plots.
+- confusion Matrix of the best model
+- results/LightGBM_Results/train_test_confusion_matrix_LightGBM.png 
 - Cross-validation (5-fold) for generalization performance.  
 
 ### 5. Prediction and Virtual Screening
