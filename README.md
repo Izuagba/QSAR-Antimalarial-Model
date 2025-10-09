@@ -1,4 +1,4 @@
-# 🧪 # Computational QSAR Analysis of Bioactive Antimalarial Constituents from *African Newbouldia laevis*
+# Computational QSAR Analysis of Bioactive Antimalarial Constituents from *African Newbouldia laevis*
 ---
 ## 🎯 Project Overview
 Malaria remains a serious global health problem, particularly in sub-Saharan Africa, with *Plasmodium falciparum* responsible for the most severe cases.  
