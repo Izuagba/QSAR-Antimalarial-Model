@@ -47,12 +47,49 @@ By leveraging molecular descriptors computed from **RDKit** and **Extended-conne
 ### 5. Prediction and Virtual Screening
 - Used trained models to predict the activity of new natural compounds (from Newbouldis Leavis).  
 ---
-# Confusion_matrix of Best Model
-It is a tool used to evaluate the performance of a model and is visually represented as a table. 
-#
-##
-###
-![image Alt](![Image](https://github.com/Izuagba/QSAR-Antimalarial-Model/blob/main/results/LightGBM_Results/train_test_confusion_matrix_LightGBM.png))
+## 🌟 Best Model — LightGBM Performance
+
+<style>
+img.visual {
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease-in-out;
+}
+img.visual:hover {
+  transform: scale(1.05);
+}
+.caption {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin-top: 6px;
+}
+</style>
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="./results/LightGBM_Results/train_test_confusion_matrix_LightGBM.png" width="380" class="visual"><br>
+      <div class="caption">Confusion Matrix — LightGBM</div>
+    </td>
+    <td align="center">
+      <img src="./results/LightGBM_Results/ROC_AUC_LightGBM.png" width="380" class="visual"><br>
+      <div class="caption">ROC–AUC Curve — LightGBM</div>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="./results/LightGBM_Results/AUPRC_LightGBM.png" width="380" class="visual"><br>
+      <div class="caption">AUPRC Curve — LightGBM</div>
+    </td>
+    <td align="center">
+      <img src="./results/Top_10_features_modelling.png" width="380" class="visual"><br>
+      <div class="caption">Top 10 Important Features (Modeling)</div>
+    </td>
+  </tr>
+</table>
+
+
 ## 🧰 Tools and Libraries
 
 | Category | Tools/Packages |
@@ -100,15 +137,6 @@ The performance of five machine learning models on the test dataset is summarize
 **Interpretation:**  
 - While Logistic Regression has the highest test accuracy and F1-score, **LightGBM achieves the highest ROC AUC and competitive AUPRC**, making it more suitable for **ranking and separating classes**, which aligns with the primary goal of this study.  
 - LightGBM is therefore selected as the **best model** for predicting antimalarial activity of compounds from *Newbouldia laevis*.
-
----
-
-## Methodology
-
-1. **Data Preparation:** Extracted molecular descriptors from the chemical constituents of *Newbouldia laevis*.  
-2. **Model Training:** Trained multiple ML models including CatBoost, XGBoost, RandomForest, Logistic Regression, and LightGBM.  
-3. **Evaluation:** Used test accuracy, F1-score, ROC AUC, and AUPRC to evaluate model performance.  
-4. **Prediction:** Applied the selected LightGBM model to predict activity scores for all compounds, enabling ranking and prioritization.
 
 ---
 
