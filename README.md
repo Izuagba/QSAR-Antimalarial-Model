@@ -49,23 +49,6 @@ By leveraging molecular descriptors computed from **RDKit** and **Extended-conne
 ---
 ## 🌟 Best Model — LightGBM Performance
 
-<style>
-img.visual {
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-  transition: transform 0.2s ease-in-out;
-}
-img.visual:hover {
-  transform: scale(1.05);
-}
-.caption {
-  font-size: 14px;
-  font-weight: 600;
-  color: #333;
-  margin-top: 6px;
-}
-</style>
-
 <table>
   <tr>
     <td align="center">
